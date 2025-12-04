@@ -1,6 +1,4 @@
 package com.ecommerce.tpfinal.entity;
-
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

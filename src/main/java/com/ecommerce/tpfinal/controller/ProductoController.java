@@ -1,17 +1,14 @@
 package com.ecommerce.tpfinal.controller;
 
 import com.ecommerce.tpfinal.entity.Productos;
-import com.ecommerce.tpfinal.repository.ProductoRepository;
 import com.ecommerce.tpfinal.services.ProductoServices;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import java.net.URI;
-import java.util.List;
-@CrossOrigin(origins = "http://127.0.0.1:5500")
+
+@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "https://milo-pasteleria.netlify.app/")
 @RestController
 @RequestMapping("/ecommerce/api/productos")
 public class ProductoController {
@@ -19,6 +16,7 @@ public class ProductoController {
     private final ProductoServices productoServices;
 
     public ProductoController(ProductoServices productoServices) {
+
         this.productoServices = productoServices;
     }
 

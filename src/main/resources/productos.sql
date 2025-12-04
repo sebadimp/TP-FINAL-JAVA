@@ -1,6 +1,6 @@
 INSERT INTO productos (nombre, descripcion, precio, categoria, imagen, stock) VALUES
 ('Torta de Chocolate', 'Torta húmeda de chocolate con crema ganache', 8500.00, 'Tortas', 'https://cdn0.recetasgratis.net/es/posts/1/9/6/torta_de_chocolate_esponjosa_10691_600.webp', 12),
-('Cheesecake Frutos Rojos', 'Cheesecake clásico con coulis de frutos rojos', 9200.00, 'Tortas', 'https://cdn0.recetasgratis.net/es/posts/1/4/9/cheesecake_de_frutos_rojos_73941_600_square.jpg', 8),
+('Cheesecake Frutos Rojos', 'Cheesecake clásico con coulis de frutos rojos', 9200.00, 'Tortas', 'https://cdn0.recetasgratis.net/es/posts/1/4/9/cheesecake_de_frutos_rojos_73941_600.webp', 8),
 ('Lemon Pie', 'Base crocante con crema de limón y merengue italiano', 7800.00, 'Tartas', 'https://cdn0.recetasgratis.net/es/posts/3/6/3/tarta_de_limon_con_merengue_51363_600.webp', 10),
 ('Medialunas de Manteca', 'Clásicas medialunas hojaldradas y dulces', 450.00, 'Panificados', 'https://cdn0.recetasgratis.net/es/posts/2/2/7/medialunas_hojaldradas_77722_600.webp', 40),
 ('Brownie con Nueces', 'Brownie de chocolate con nueces tostadas', 1200.00, 'Porción', 'https://cdn0.recetasgratis.net/es/posts/2/4/4/brownie_sin_mantequilla_58442_600.webp', 25),
