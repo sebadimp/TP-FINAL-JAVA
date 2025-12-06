@@ -8,7 +8,7 @@ El Proyecto consiste en una **API REST desarrollada con Spring Boot** para gesti
 - Agregar productos al carrito (localStorage)  
 - Mostrar modal de confirmación y contador en el navbar  
 
-El frontend está desplegado en Netlify.
+El frontend está desplegado en Vercel.
 
 ---
 
@@ -35,8 +35,16 @@ El frontend está desplegado en Netlify.
 - HTML5  
 - CSS3 (Bootstrap + estilos personalizados)  
 - JavaScript (Fetch API + LocalStorage)  
-- Bootstrap Icons  
-- Netlify (deployment)
+- React 19 — Librería principal para construir la interfaz de usuario.
+- React DOM — Renderizado de componentes React en el DOM.
+- React Router DOM 7 — Navegación y ruteo entre páginas.
+- React Bootstrap — Componentes UI listos basados en Bootstrap.
+- Bootstrap 5.3 — Framework CSS para estilos y grillas responsivas.
+- Styled Components — CSS-in-JS para estilos personalizados por componente.
+- React Toastify — Notificaciones visuales de fácil uso.
+- React Helmet — Gestión del <head> y SEO (títulos, meta tags).
+- React Icons — Íconos listos para usar en componentes.
+- Vercel (deployment)
 
 ---
 
@@ -154,14 +162,15 @@ DELETE /ecommerce/api/productos/{id}
 
 - Panel de administración
 
-- Carrito persistido en backend
+- Carrito persistido (en backend)
 
-- Login y roles
+- Login y roles (en backend)
 
-- Gestión de pedidos
+- Gestión de pedidos (en backend)
 
 ---
 
 # 📄 Licencia
 
 Proyecto de ejemplo educativo para el curso BACKEND JAVA - TALENTO TECH.
+
