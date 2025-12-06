@@ -14,7 +14,7 @@ El frontend está desplegado en Vercel.
 
 ## 🚀 DEMO ONLINE (Frontend)
 
-🔗 **https://milo-pasteleria.netlify.app**
+🔗 **https://milo-pasteleria-frontend.vercel.app**
 
 > Acá se puede visualizar el listado, probar filtros, entrar al detalle y usar el carrito.
 
@@ -154,7 +154,7 @@ DELETE /ecommerce/api/productos/{id}
    TpFinalApplication.java
    ```
 5. Abrir Postman/Insomia para realizar pruebas de los endpoints
-6. Dirigirse a https://milo-pasteleria.netlify.app/ para comprobar el consumo de la api desde el Front
+6. Dirigirse a **https://milo-pasteleria-frontend.vercel.app** para comprobar el consumo de la api desde el Front
 
 ---
 
@@ -173,4 +173,5 @@ DELETE /ecommerce/api/productos/{id}
 # 📄 Licencia
 
 Proyecto de ejemplo educativo para el curso BACKEND JAVA - TALENTO TECH.
+
 
